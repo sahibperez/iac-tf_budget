@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_budgets_budget" "like-and-suscribe" {
+resource "aws_budgets_budget" "main" {
   name              = "monthly-budget"
   budget_type       = "COST"
   limit_amount      = "50.0"
