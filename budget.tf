@@ -2,8 +2,8 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_budgets_budget" "main" {
-  name              = "monthly-budget"
+resource "aws_budgets_budget" "sahib-budget" {
+  name              = "monthly-budget-01"
   budget_type       = "COST"
   limit_amount      = "50.0"
   limit_unit        = "USD"
